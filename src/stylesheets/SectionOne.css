@@ -1,0 +1,175 @@
+.section-one {
+    height: 100vh;
+    background-color: #f8f8f8;
+    padding: 3rem 5rem;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.profile .avatar {
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 #aaa;
+}
+
+.profile div h2 {
+    margin: 5px 0;
+}
+
+.profile div p {
+    font-size: 0.6rem;
+    letter-spacing: 1.5px;
+}
+
+.today {
+    margin: 3rem 0;
+}
+
+.today h2,
+.recent h2 {
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.today div,
+.recent div {
+    margin: 1rem 0;
+}
+
+.today div h4,
+.today div h1 {
+    margin: 0.3rem 0;
+}
+
+.today div p {
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #bbb;
+}
+
+.today button {
+    background-color: royalblue;
+    color: #fff;
+    padding: 0.7rem 1.4rem;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+}
+
+.recent div p,
+.recent div span {
+    font-size: 0.7rem;
+    margin: 0.2rem 0;
+    text-transform: capitalize;
+}
+
+.recent div span {
+    color: #888;
+}
+
+.recent div p {
+    color: #666;
+    font-weight: 600;
+}
+
+.recent div hr {
+    margin: 1rem 0.5rem;
+    border: 1px solid #f3f3f3;
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .section-one {
+        height: fit-content;
+        background-color: #fff;
+        padding: 2rem;
+    }
+
+    .profile .avatar {
+        height: 120px;
+        width: 120px;
+        background-color: #eee;
+    }
+
+    .profile div h2 {
+        font-size: 3rem;
+    }
+
+    .profile div p {
+        font-size: 1.3rem;
+    }
+
+    .today, .recent{
+        background-color: #f8f8f8;
+        padding: 1rem 2rem;
+        border-radius: 20px;
+    }
+
+    .today h2,
+    .recent h2 {
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+
+    .today div,
+    .recent div {
+        margin: 1rem 0;
+    }
+
+    .today div h4{
+        margin: 0.8rem 0;
+        font-size: 2rem;
+        
+    }
+    .today div h1 {
+        margin: 0.8rem 0;
+        font-size: 2.5rem;
+    }
+
+    .today div p {
+        text-transform: capitalize;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #bbb;
+    }
+
+    .today button {
+        background-color: royalblue;
+        color: #fff;
+        padding: 1rem 1.4rem;
+        margin: 1rem 0;
+        border-radius: 10px;
+        letter-spacing: 1.5px;
+        font-size: 1.6rem;
+    }
+
+    .recent div p,
+    .recent div span {
+        font-size: 1.3rem;
+        margin: 0.8rem 0;
+        text-transform: capitalize;
+    }
+
+    .recent div span {
+        color: #888;
+    }
+
+    .recent div p {
+        color: #666;
+        font-weight: 600;
+    }
+
+    .recent div hr {
+        margin: 1rem 0.5rem;
+        border: 1px solid #f3f3f3;
+    }
+}

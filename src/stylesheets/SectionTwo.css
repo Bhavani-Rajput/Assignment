@@ -1,0 +1,195 @@
+
+.section-two{
+    flex: auto;
+    padding: 3rem 5rem;
+}
+
+.section-two > h1{
+    text-transform: capitalize;
+    margin: 0.3rem 0;
+}
+
+.section-two > h2{
+    font-size: 1rem;
+    color: royalblue;
+    text-transform: capitalize;
+}
+
+.section-two .sub-section-one{
+    display: flex;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+
+.section-two .sub-section-one div{
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.section-two .sub-section-one div p{
+    color: #bbb;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.section-two > .sub-section-one hr{
+    border: 1px solid royalblue;
+}
+
+.section-two > h4{
+    margin-top: 2.5rem;
+    text-transform: capitalize;
+}
+
+.section-two .bar-chart{
+    width: 100%;
+    height: 30vh;
+    background-color: #f9f9f9;
+    margin: 1rem 0;
+}
+
+.section-two > p{
+    color: #bbb;
+    margin: 0.3rem 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.section-two .sub-section-two{
+    display: flex;
+    gap: 2rem;
+}
+
+.one{
+    flex: 1;
+}
+
+.two{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.sub-section-two div{
+    margin: 0.8rem 0;
+}
+
+.sub-section-two div p{
+    margin: 0.6rem 0;
+    /* font-weight: 600; */
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.two .seekbar{
+    width: 90px;
+    height: 90px;
+    background-color: #f8f8f8;
+}
+
+.section-two .sub-section-two hr{
+    border: 1px solid #eee;
+}
+
+@media screen and (max-width: 900px) {
+
+    .section-two{
+        padding: 2rem;
+    }
+    
+    .section-two > h1{
+        margin: 0.3rem 0;
+        font-size: 1.8rem;
+    }
+    
+    .section-two > h2{
+        font-size: 1.4rem;
+        color: royalblue;
+        text-transform: capitalize;
+    }
+    
+    .section-two .sub-section-one{
+        flex-direction: column;
+        margin: 2rem 2rem 2rem 0;
+        gap: 1.5rem;
+    }
+    
+    .section-two .sub-section-one div{
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+    
+    .section-two .sub-section-one div p{
+        color: #bbb;
+        text-transform: capitalize;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    .section-two > .sub-section-one hr{
+        border: 1px solid royalblue;
+    }
+    
+    .section-two > h4{
+        margin-top: 3rem;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+    }
+    
+    .section-two .bar-chart{
+        width: 100%;
+        height: 30vh;
+        background-color: #f9f9f9;
+        margin: 2rem 0;
+    }
+    
+    .section-two > p{
+        color: #bbb;
+        margin: 0.5rem 0;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    
+    .section-two .sub-section-two{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .one{
+        flex: auto;
+    }
+    
+    .two{
+        flex: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .sub-section-two div{
+        margin: 0.8rem 0;
+    }
+    
+    .sub-section-two div p{
+        margin: 0.8rem 1rem;
+        /* font-weight: 600; */
+        font-size: 1rem;
+        text-transform: capitalize;
+    }
+    
+    .two .seekbar{
+        width: 100px;
+        height: 100px;
+        background-color: #f8f8f8;
+    }
+    
+    .section-two .sub-section-two hr{
+        border: 1px solid #eee;
+    }
+}
